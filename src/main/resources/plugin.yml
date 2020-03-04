@@ -22,7 +22,7 @@ commands:
   simonorj:
     aliases: [chuu]
     description: idk why did i make this
-    usage: /xray
+    usage: /simonorj
     permission: portchuuextras.command.simonorj
 
 permissions:
