@@ -24,6 +24,11 @@ commands:
     description: idk why did i make this
     usage: /simonorj
     permission: portchuuextras.command.simonorj
+  thecodingguy:
+    aliases: [tcg]
+    description: A thing by TCG, b/c why not
+    usage: /thecodingguy
+    permission: portchuuextras.command.thecodingguy
 
 permissions:
   portchuuextras.command.xray:
@@ -32,6 +37,8 @@ permissions:
     default: true
   # Contributor Commands
   portchuuextras.command.simonorj:
+    default: true
+  portchuuextras.command.thecodingguy:
     default: true
   # Listener Commands
   portchuuextras.interact.sit:

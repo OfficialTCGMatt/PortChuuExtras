@@ -23,6 +23,8 @@ public class PortChuuExtras extends JavaPlugin {
         getServer().getPluginManager().registerEvents(chairListener = new ChairListener(), this);
 
         getCommand("simonorj").setExecutor(new SimonOrJ());
+        getCommand("thecodingguy").setExecutor(new TheCodingGuy());
+
     }
 
     @Override
